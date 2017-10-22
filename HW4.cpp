@@ -16,6 +16,6 @@ int main()
 		a = a*a;
 	}
 	double p;
-	p = a / c;
+	p = a % c;
 	cout << p;
 }
