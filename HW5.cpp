@@ -7,11 +7,11 @@
 using namespace std;
 
 int main() {
-int a, b, i;
-cin >> a >> b;
-for (i = 1; i < (b-1); i++) {
-a = a + b;
-}
-cout << a;
-return 0;
+  int a, b, i;
+  cin >> a >> b;
+  for (i = 1; i < (b-1); i++) {
+    a = a + b;
+  }
+  cout << a;
+  return 0;
 }
