@@ -11,7 +11,7 @@ int main()
 {
 	int a, b, c;
 	cin >> a >> b >> c;
-	for (i = 1; i < (b-1); i++) 
+	for (i = 1; i < b; i++) 
 	{
 		a = a*a;
 	}
