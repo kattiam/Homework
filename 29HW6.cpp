@@ -21,7 +21,7 @@ void delDup( int **a, int *N){
      }
    }
    int *bb = new int[NN];
-   for( int i=0; i< NN; i++) bb[i] = aa[i];
+   for( int i=0; i< NN; i++) {bb[i] = aa[i];}
    delete pa;
    delete aa;
    *a = bb;
