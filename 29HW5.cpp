@@ -22,12 +22,11 @@ void sort(int *p, int N){
 
 int main(int argc, char *argv[])
 {
-//    int a[10] = {9,1,8,2,7,3,2};
      int N;
      cin >> N;
      int *a = new int [N];
      for (int i=0; i < N; i++) cin >> a[i];
-     sort(a, 7);
+     sort(a, N);
      for( int i=0; i < N; i++) cout << a[i] << "\n";
 
      system("PAUSE");
