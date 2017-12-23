@@ -47,7 +47,10 @@ int main(int argc, char** argv){
   cout << "Enter the quantity of elements ";
   cin >> N;
   int mas[N];
-  int k = kth(mas, 7, N);
+  cout << "Enter the number of ordinal statistics ";
+  int l;
+  cin >> l;
+  int k = kth(mas, l, N);
   cout << k << endl;
   system("PAUSE");
   return EXIT_SUCCESS;
